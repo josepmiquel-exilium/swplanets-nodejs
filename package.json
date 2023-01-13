@@ -9,5 +9,7 @@
   "private": true,
   "license": "UNLICENSED",
   "dependencies": {
-  }
+    "node-fetch": "^3.3.0"
+  },
+  "type": "module"
 }
