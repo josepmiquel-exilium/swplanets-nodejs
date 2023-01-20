@@ -1,16 +1,13 @@
 import { apiBaseUrl, basicReq } from '../config.js';
 
 export const fetchFilmsInfo = async () => {
-    const data = await basicReq(`${apiBaseUrl}/films`);
-    return data;
+    return await basicReq(`${apiBaseUrl}/films`);
 };
 
 export const fetchSingleFilm = async (id) => {
-    const data = await basicReq(`${apiBaseUrl}/films/${id}`);
-    return data;
+    return await basicReq(`${apiBaseUrl}/films/${id}`);
 };
 
 export const fetchPlanet = async (id) => {
-    const data = await basicReq(`${apiBaseUrl}/planets/${id}`);
-    return data;
+    return await basicReq(`${apiBaseUrl}/planets/${id}`);
 };
